@@ -71,7 +71,7 @@ exports.send = function (fromName, fromu, to, message, callback) {
                 uri: 'https://android.googleapis.com/gcm/send',
                 headers : {
                     'Content-Type': 'application/json',
-                    'Authorization':'key=AIzaSyCL4EL0tSTGWk0uH0jlxp8JldMmFDVyxZ8'
+                    'Authorization':'key=Ap8JldMmFDVyxZ8'
                 },
                 body: JSON.stringify({
                     "registration_ids" : [toId],
